@@ -9,7 +9,7 @@
         "lint": "eslint \"src/**/*.ts\"",
         "prettier-format": "prettier --config .prettierrc \"src/**/*.ts\" --write",
         "postinstall": "yarn run build"
-    },
+   },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/ShineiIchijo/Chitoge.git"
