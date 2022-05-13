@@ -20,14 +20,14 @@ export default class Command extends BaseCommand {
     const filteredMap = this.client.config.mods
       .map((mod) => this.client.getContact(mod))
       .filter((user) => user);
-    let text = "🎆Beyond Owners🎆\n\n";
+    let text = "🚀 ASTRO OWNERS 🚀\n\n";
     filteredMap.forEach(
       (user, index) =>
         (text += `#${index + 1}\n🎉 *Username: ${
           user.notify || user.vname || user.name || "null"
-        }*\n🎆 *Contact: https://wa.me/+${user?.jid?.split("@")[0]}*\n\n`)
+        }*\n🚀 *Contact: https://wa.me/+${user?.jid?.split("@")[0]}*\n\n`)
     );
-    text += `\n 🎆BEYOND🎆`;
+    text += `\n 🚀ASTRO🚀`;
     return void M.reply(text);
   };
 }
