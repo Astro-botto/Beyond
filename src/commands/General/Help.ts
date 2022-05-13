@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `Hello there, 👋🏽 *${M.sender.username}*\n\n•🪀OFFFICAL GROUP🪀: ~https://chat.whatsapp.com/KXBe1wBEgYg6oBABHm7H6H~.\n\n━━❰･Notes📮Side･❱━━\nMy name is *FUTURE*.\n\nMy prefix is *${this.client.config.prefix}* and below are the usable commands 👇🏽\n\n1`
+            let text = `Hello there, 👋🏽 *${M.sender.username}*\n\n\n\n━━❰･Notes📮Side･❱━━\nMy name is *ASTRO🚀*.\n\nMy prefix is *${this.client.config.prefix}* and below are the usable commands 👇🏽\n\n1`
             const keys = Object.keys(categories)
             for (const key of keys)
                 text += `━━❰🔮•Bot ${this.emojis[keys.indexOf(key)]} ${this.client.util.capitalize(key)}•🔮❱━━\n• \`\`\`${categories[
