@@ -23,7 +23,7 @@ export default class Command extends BaseCommand {
     if (M.quoted?.sender) M.mentioned.push(M.quoted.sender);
     if (!M.mentioned.length || !M.mentioned[0])
       return void M.reply("Mention the user whom you want to ban");
-    let text = "*STATE*\n\n";
+    let text = "*Sorry You were banned by Astro.inc🚀 Devs please contact support.*\n\n";
     // declare tagged as (string | undefined) []
     // const tagged : (string | undefined)[] = []
     for (const user of M.mentioned) {
@@ -37,12 +37,12 @@ export default class Command extends BaseCommand {
       // const username = info.notify || info.vname || info.name || user.split('@')[0]
       // const username = user.split('@')[0]
       if (data?.ban) {
-        text += `🟨 @${user.split("@")[0]}: Already Banned\n`;
+        text += `🟨 @${user.split("@")[0]}:\n`;
         continue;
       }
       await this.client.blockUser(user);
       await this.client.banUser(user);
-      text += `🟥 @${user.split("@")[0]}: Banned\n`;
+      text += `🟥 @${user.split("@")[0]}:\n`;
     }
     await M.reply(
       `${text}`,
