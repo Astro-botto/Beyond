@@ -19,8 +19,8 @@ export default class Command extends BaseCommand {
   run = async (M: ISimplifiedMessage): Promise<void> => {
     await this.client.sendMessage(
       M.sender.jid,
-      ` _*I'M FROM Astro 🚀*\n\n
-        _*https://chat.whatsapp.com/JMCzGuYeYzC4m1L21Wzy1p`,
+      ` _*I'M FROM NEZUKO 🚀*\n\n
+        _*https://chat.whatsapp.com/BAtmmxd5rEhKH7Rx9gcZ4L`,
 
       MessageType.text
     );

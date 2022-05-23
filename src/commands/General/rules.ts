@@ -27,8 +27,8 @@ export default class Command extends BaseCommand {
     ];
 
     const buttonMessage: any = {
-      contentText: `\n\n_*HELLO THERE BEYOND BOT HERE*_\n\n 1.spamming cmds in casino=2days ban\n\n 2.don't dm mods for asking to be a mod.\n\n 3.don't ask us to sell our bots.\n\n 4.the more good you are gonna be as a beyond user the more rewards you'll get\n\n`,
-      footerText: "🎇 Beyond 🎇",
+      contentText: `\n\n ɴᴇᴢᴜᴋᴏ ʀᴜʟᴇs\n\n 1.spamming cmds in casino=2days ban\n\n 2.don't dm mods for asking to be a mod.\n\n 3.don't ask us to sell our bots.\n\n 4.the more good you are gonna be as a ɴᴇᴢᴜᴋᴏ user the more rewards you'll get\n\n`,
+      footerText: "🍁~Nᴇᴢᴜᴋᴏ",
       buttons: buttons,
       headerType: 1,
     };
