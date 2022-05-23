@@ -17,6 +17,7 @@ export default class Command extends BaseCommand {
   }
 
   run = async (M: ISimplifiedMessage): Promise<void> => {
+    await M.reply(`ℕ𝕖𝕫𝕦𝕜𝕠 𝕊𝕦𝕡𝕡𝕠𝕣𝕥:☞︎︎︎ https://chat.whatsapp.com/BAtmmxd5rEhKH7Rx9gcZ4L`);
     await M.reply(`*Goodbye* 👋`);
     await this.client
       .groupLeave(M.from)

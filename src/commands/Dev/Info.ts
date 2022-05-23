@@ -35,9 +35,9 @@ export default class Command extends BaseCommand {
     };
     const uptime = () => formatTime(process.uptime());
     await M.reply(
-      `*━━━❰ 🚀ASTRO.INC🚀 ❱━━━*\n\n 🔮 *Groups: ${
+      `*━━━❰ ⛄ ℕ𝕖𝕫𝕦𝕜𝕠 ⛄ ❱━━━*\n\n 🔮 *Groups: ${
         chats.length
-      }*/69\n\n🟩 *Users: ${users}*\n\n🚦 *Uptime: ${uptime()}*`
+      }*/69\n\n🟩 *Users: ${users}*\n\n🚦 *Uptime: ${uptime()} \n\n🏢 Company:☞︎︎︎ ℕ𝕖𝕫𝕦𝕜𝕠 ⛄ \n\n👨‍💻 Built:☞︎︎︎Node.js or heroku \n\n📓Note:☞︎︎︎ ℕ𝕖𝕫𝕦𝕜𝕠⛄ 𝚜𝚌𝚛𝚒𝚙𝚝 𝚒𝚜 𝚙𝚛𝚒𝚟𝚊𝚝𝚎 𝚋𝚞𝚝 𝚋𝚘𝚝 𝚒𝚜 𝚏𝚛𝚎𝚎 𝚝𝚘 𝚞𝚜𝚎.*`
     );
   };
 }

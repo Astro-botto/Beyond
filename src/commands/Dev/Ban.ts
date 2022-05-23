@@ -23,7 +23,7 @@ export default class Command extends BaseCommand {
     if (M.quoted?.sender) M.mentioned.push(M.quoted.sender);
     if (!M.mentioned.length || !M.mentioned[0])
       return void M.reply("Mention the user whom you want to ban");
-    let text = "*Sorry You were banned by Astro.inc🚀 Devs please contact support.*\n\n";
+    let text = "*Sorry You were banned by  Devs please contact support.*\n\n";
     // declare tagged as (string | undefined) []
     // const tagged : (string | undefined)[] = []
     for (const user of M.mentioned) {

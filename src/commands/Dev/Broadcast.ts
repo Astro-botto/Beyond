@@ -41,7 +41,7 @@ export default class Command extends BaseCommand {
       .map((jids) => (jids.includes("g.us") ? jids : null))
       .filter((v) => v);
     for (let i = 0; i < chats.length; i++) {
-      const text = `🚀 ASTRO 🚀\n\n${term}\n\n Regards ~ *${M.sender.username}*`;
+      const text = `⛄ℕ𝕖𝕫𝕦𝕜𝕠 𝔹𝕣𝕠𝕒𝕕𝕔𝕒𝕤𝕥⛄\n\n${term}\n\n Regards ~ *${M.sender.username}*`;
       this.client.sendMessage(chats[i], { url: selected }, MessageType.image, {
         caption: `${text}`,
         contextInfo: {	mentionedJid: M.groupMetadata?.participants.map((user) => user.jid),

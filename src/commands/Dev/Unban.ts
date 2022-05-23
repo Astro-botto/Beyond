@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
     if (M.quoted?.sender) M.mentioned.push(M.quoted.sender);
     if (!M.mentioned.length || !M.mentioned[0])
       return void M.reply("Please mention the user whom you want to unban");
-    let text = "*STATE*\n\n";
+    let text = "The user has now been unbanned and crimes are cleaned\n\n";
     for (const user of M.mentioned) {
       const data = await this.client.getUser(user);
       // const info = this.client.getContact(user)
